@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using st = System.Threading;
 
 namespace _02_level2
@@ -8,7 +9,8 @@ namespace _02_level2
         static void Main(string[] args)
         {
             var timer = new Timer();
-            var ticker = new Ticker(timer);
+            var ticker = new Ticker();
+            ticker.Subscribe(timer);
 
             ConsoleKeyInfo keyInfo;
             do
@@ -26,24 +28,30 @@ namespace _02_level2
 
         class Ticker
         {
-            IObserver observer;
-
-            st::Timer timer;
+            private readonly List<IObserver> observers = new List<IObserver>();
             bool isStop = false;
 
-            public Ticker(IObserver observer)
+            public Ticker()
             {
-                this.observer = observer;
-
                 st::TimerCallback callback = state =>
                 {
                     if (!isStop)
                     {
-                        observer.update(GetTime());
+                        Notify();
                     }
                 };
 
-                timer = new st::Timer(callback, null, 500, 1000);
+                var timer = new st::Timer(callback, null, 500, 1000);
+            }
+
+            public void Subscribe(IObserver observer)
+            {
+                observers.Add(observer);
+            }
+
+            void Notify()
+            {
+                observers.ForEach(o => o.update(GetTime()));
             }
 
             public void StartOrStop()
