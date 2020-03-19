@@ -1,0 +1,11 @@
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\bin\Debug\netcoreapp3.1\02_level2.exe
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\bin\Debug\netcoreapp3.1\02_level2.deps.json
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\bin\Debug\netcoreapp3.1\02_level2.runtimeconfig.json
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\bin\Debug\netcoreapp3.1\02_level2.runtimeconfig.dev.json
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\bin\Debug\netcoreapp3.1\02_level2.dll
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\bin\Debug\netcoreapp3.1\02_level2.pdb
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\obj\Debug\netcoreapp3.1\02_level2.csprojAssemblyReference.cache
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\obj\Debug\netcoreapp3.1\02_level2.AssemblyInfoInputs.cache
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\obj\Debug\netcoreapp3.1\02_level2.AssemblyInfo.cs
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\obj\Debug\netcoreapp3.1\02_level2.dll
+C:\Users\futatsuka\Downloads\tech_learn\c#\02_level2\02_level2\obj\Debug\netcoreapp3.1\02_level2.pdb
