@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using st = System.Threading;
 
-namespace _02_level2
+namespace _02_level3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var timer = new Timer();
+            var timer = new Timer(new ConsoleView());
             var ticker = new Ticker();
             ticker.Subscribe(timer);
 
@@ -72,11 +72,30 @@ namespace _02_level2
 
         class Timer : IObserver
         {
+            IView view;
+
+            public Timer(IView view)
+            {
+                this.view = view;
+            }
 
             public void update(string time)
             {
+                view.display(time);
+            }
+        }
+
+        interface IView
+        {
+            void display(string message);
+        }
+
+        class ConsoleView : IView
+        {
+            public void display(string message)
+            {
                 Console.Clear();
-                Console.WriteLine(time);
+                Console.WriteLine(message);
             }
         }
     }

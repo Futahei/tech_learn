@@ -1,0 +1,11 @@
+G:\Documents\tech_learn\c#\02_level3\02_level3\bin\Debug\netcoreapp3.1\02_level3.exe
+G:\Documents\tech_learn\c#\02_level3\02_level3\bin\Debug\netcoreapp3.1\02_level3.deps.json
+G:\Documents\tech_learn\c#\02_level3\02_level3\bin\Debug\netcoreapp3.1\02_level3.runtimeconfig.json
+G:\Documents\tech_learn\c#\02_level3\02_level3\bin\Debug\netcoreapp3.1\02_level3.runtimeconfig.dev.json
+G:\Documents\tech_learn\c#\02_level3\02_level3\bin\Debug\netcoreapp3.1\02_level3.dll
+G:\Documents\tech_learn\c#\02_level3\02_level3\bin\Debug\netcoreapp3.1\02_level3.pdb
+G:\Documents\tech_learn\c#\02_level3\02_level3\obj\Debug\netcoreapp3.1\02_level3.csprojAssemblyReference.cache
+G:\Documents\tech_learn\c#\02_level3\02_level3\obj\Debug\netcoreapp3.1\02_level3.AssemblyInfoInputs.cache
+G:\Documents\tech_learn\c#\02_level3\02_level3\obj\Debug\netcoreapp3.1\02_level3.AssemblyInfo.cs
+G:\Documents\tech_learn\c#\02_level3\02_level3\obj\Debug\netcoreapp3.1\02_level3.dll
+G:\Documents\tech_learn\c#\02_level3\02_level3\obj\Debug\netcoreapp3.1\02_level3.pdb
